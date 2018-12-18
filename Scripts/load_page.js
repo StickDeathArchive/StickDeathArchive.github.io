@@ -1,0 +1,7 @@
+﻿function load_header() {
+    document.write('<script type=text/javascript> if (navigator.platform.indexOf(\'Nintendo 3DS\') > -1){window.location.replace("/3ds/");}</script><nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <div class="container-fluid"> <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="/">BobDoleOwndU</a> </div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li><a href="/3ds/">3DS Spider Tools</a></li></ul> <ul class="nav navbar-nav navbar-right"> <li><a href="/downloads/">Downloads</a></li></ul> </div></div></nav>');
+} //function load_header ends
+
+function load_footer() {
+    document.write('<footer class="footer navbar-inverse"> <div class="container"> <p class="text-muted">&copy; 2015 <a href="https://github.com/BobDoleOwndU">BobDoleOwndU</a></p><p class="text-muted">Source code available <a href="https://github.com/BobDoleOwndU/BobDoleOwndUSite">HERE</a></p></div></footer><script src="/Scripts/jquery-2.1.4.min.js"></script><script src="/Scripts/bootstrap.min.js"></script>');
+} //function load_footer ends
